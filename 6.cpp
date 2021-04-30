@@ -63,6 +63,7 @@ int slove(void)
     std::string S;
     std::cin >> S;
 
+    // 文字列の貪欲法
     // 次どこに出てくるかのリストを作る
     // NextPos[c][4] -> 次にCが出てくるインデックス
     std::vector<std::vector<int>> NextPos(26, std::vector<int>(S.size(), -1));

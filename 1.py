@@ -1,5 +1,3 @@
-# https://github.com/E869120/kyopro_educational_90
-# ↑ありがとうございます
 "1本の長いものを切れ目に沿って分割する時、一番短くなるピースを最大にする問題"
 N, sL = input().split()  # map(int, input().split())
 L = int(sL)
